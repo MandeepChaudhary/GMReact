@@ -5,8 +5,8 @@ import Gpin from "./assets/googlepin.png";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { Modal } from "react-bootstrap";
 import { useState } from "react";
-import Menu1 from "./assets/menu1.jpeg";
-import Menu2 from "./assets/menu2.jpeg";
+import Menu1 from "./assets/menu1.jpg";
+import Menu2 from "./assets/menu2.jpg";
 import waIcon from "./assets/WhatsApp_icon.png";
 import caIcon from "./assets/call.png";
 
@@ -42,7 +42,7 @@ function App() {
     "5pm - 10pm",
     "Closed",
   ];
-  const address = "105 Canterbury Rd, Folkestone CT19 5NW, United Kingdom.";
+  const address = "105 Canterbury Rd, Folkestone CT18 7BS, United Kingdom.";
   const call = "Contact : 01303891770 / 01303894030";
   const googleMapsLink = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
     address
